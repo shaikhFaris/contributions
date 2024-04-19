@@ -9,7 +9,7 @@ const dotsSpan2=document.createElement("span")
 
 
 information = {
-    text:["[+] Setting up resourses.Preparing for attack ","[+] Setting up proxy servers"],
+    text:["Refer the README.md file for instructions","first know what you are doing"],
     dotsNum:8,
     repeat:20, 
     delay:2000,
@@ -79,7 +79,5 @@ async function main(delay)
 }
 //******************************************* */
 
-
-
-main(information.delay)
 // write the delay between each msg on terminal
+// call the main function
